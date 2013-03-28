@@ -4,6 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 import xml.etree.ElementTree as ET
 import time,hashlib
+import datetime
 
 #微信公共主页开发模式设置的token，http://mp.weixin.qq.com/
 #此处用TOKEN代替，可自行更改，但要和开发模式设置的一致
